@@ -13,6 +13,9 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    animation: 
+        typing 2s step(15)
+        cursor .4s step-end infinite alternate;
 }
 .hero_desc {
     font-size: 2rem;
@@ -24,12 +27,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    animation: 
-        typing 2s step(15)
-        cursor .4s step-end infinite alternate;
 }
 
 /* spacing on all sections */
+
 /* #about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
