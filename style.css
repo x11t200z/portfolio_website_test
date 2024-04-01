@@ -1,24 +1,27 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
+    opacity: 50%;
 }
 
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    background: url('images/heroImage2.jpg') ;
+    background-position: bottom center;
     background-size:cover;
     position:relative;
+    
 }
+
 /* text css above hero image*/
-.hero_title {
-    font-size: 4.5rem;
-    animation: 
-        typing 2s step(15)
-        cursor .4s step-end infinite alternate;
+.typewrite
+{
+    color: white;
+    text-decoration: none;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .hero-text {
     text-align: center;
