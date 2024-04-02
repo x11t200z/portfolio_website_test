@@ -3,7 +3,9 @@
     background-color: black;
     opacity: 50%;
 }
-
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -17,6 +19,10 @@
 /* text css above hero image*/
 .typewrite
 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-stretch: 100%;
+    font-size: 50px;
     color: white;
     text-decoration: none;
 }
@@ -43,7 +49,12 @@
 }
 /* about section image css */
 .imageAboutPage {
-    width: 100%;
+    width: 300px;
+
+  height: 300px;
+  background-color: #ff0080;
+  border-radius: 50%;
+
 }
 
 /* services section css */
